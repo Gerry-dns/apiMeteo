@@ -1,0 +1,106 @@
+body {
+    height: 100vh;
+    background-image: url(/Assets/bgphoto.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@font-face {
+    font-family: 'mexicain';
+    src: url('/Assets/mexicain.TTF');
+}
+
+@font-face {
+    font-family: 'russe';
+    src: url('/Assets/russe.otf');
+}
+
+@font-face {
+    font-family: 'description';
+    src: url('/Assets/description.otf');
+}
+
+@font-face {
+    font-family: 'snow';
+    src: url('/Assets/SnowtopCaps.otf');
+}
+
+#msg-alert {
+    background-color: rgba(240, 33, 33, 0.571);
+    text-align: center;
+    align-items: center;
+    border-radius: 4vh;
+    font-family: 'snow';
+    font-size: 2rem;
+    color: black;
+    opacity: 90%;
+    text-align: center;
+}
+
+.form-group {
+    display: grid;
+    grid-template-columns: 50% 20%;
+}
+
+input {
+    height: 5vh;
+}
+
+.btn-rechercher {
+    width: 20vh;
+    margin-left: 2vh;
+}
+
+.grid-container {
+    gap: 2vh;
+    margin-top: 5vh;
+    height: 65vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows : 50% 50%;
+  }
+
+.grid-item {
+    display:flex;
+    
+    height: 30vh;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    opacity: 90%;
+}
+
+
+
+
+#city {
+    text-align: center;
+    font-family: 'mexicain';
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    background-color: rgb(230, 107, 107);
+    
+}
+
+#temp {
+    text-align: center;
+    font-family: 'russe';
+    font-size: 2.5rem;
+    color: rgb(21, 20, 23);
+    background-color: rgb(232, 230, 165);
+}
+
+#description {
+    text-align: center;
+    background-color: rgb(75, 202, 231);
+    font-family: 'description';
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+#wind {
+    text-align: center;
+    background-color: bisque;
+    font-size: 2rem;
+    font-family: 'russe';
+}
